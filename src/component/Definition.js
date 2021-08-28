@@ -5,10 +5,9 @@ function Definition({ loading, inputWord, data, language }) {
   if (loading) {
     return (
       <div className="definition">
-        <Loader />;
+        <Loader />
       </div>
     );
-      
   }
   return (
     <>

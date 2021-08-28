@@ -6,6 +6,7 @@ import TextField from "@material-ui/core/TextField";
 import languages from "../data/Languages";
 import { Button } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
+
 function InputComponent({
   onSearch,
   loading,
@@ -46,6 +47,7 @@ function InputComponent({
           }}
         />
         <TextField
+          disabled={loading}
           style={{ width: "30%" }}
           value={language}
           onChange={onHandleChange}
@@ -64,7 +66,7 @@ function InputComponent({
           color="primary"
           style={{
             width: "10%",
-            margin: "10px 0",
+            margin: "10px ​0 0 ​0",
           }}
           variant="contained"
           onClick={onSearch}

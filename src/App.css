@@ -23,6 +23,7 @@
   overflow-x: hidden;
 }
 .single_meaning {
+  line-height: 26px;
   padding: 20px;
   background-color: #fff;
   color: #000;
@@ -50,7 +51,6 @@
 .definition::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
 @media (max-width: 900px) {
   .definition {
     height: 60vh;
